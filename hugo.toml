@@ -1,0 +1,16 @@
+
+baseURL = "/"
+languageCode = "en-us"
+title = "Cream SMB Advisor"
+theme = "custom"
+
+[params]
+  description = "Small and medium business advisory: tools, vendors, hiring, and operations for owner-operators."
+  author = "Editorial Team"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
